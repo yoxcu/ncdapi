@@ -11,12 +11,12 @@ This client is well tested, but it is possible that some actions provoke a bug, 
 - curl
 
 ### Credentials
-To use this script you must replace the values at beginning of the script with your:
+To use this script you must replace the values in `nc_credentials.env` with your:
 ```
 #Credentials
-apikey=YOUR_API_KEY
-apipw=YOUR_API_PASSWORD
-cid=YOUR_CUSTOMERNUMBER
+NC_APIKEY=YOUR_API_KEY
+NC_APIPW=YOUR_API_PASSWORD 
+NC_CID=YOUR_CUSTOMERNUMBER
 ```
 ### How to use
 ```

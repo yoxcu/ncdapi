@@ -1,10 +1,10 @@
 #!/bin/bash
 #developed by linux-insideDE @GPN18
-
+. $(dirname -- "$( readlink -f -- "$0"; )";)/nc_credentials.env
 #Credentials
-apikey=YOUR_API_KEY
-apipw=YOUR_API_PASSWORD
-cid=YOUR_CUSTOMERNUMBER
+apikey=$NC_APIKEY
+apipw=$NC_APIPW
+cid=$NC_CID
 
 end="https://ccp.netcup.net/run/webservice/servers/endpoint.php?JSON"
 client=""
